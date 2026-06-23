@@ -74,7 +74,8 @@ While both CNAME and ALIAS records can map one domain name to another
 
 ## 1. CNAME
 
-- points to Any domain name (e.g., any-domain.com)
+- Pointing to a non-AWS resource (e.g., a server hosted on another cloud or Pointing a subdomain (cdn.example.com))
+- can't be used at the zone apex
 - Charged (standard query price)
 
 ## 2. Alias
