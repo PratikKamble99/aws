@@ -758,11 +758,16 @@ AWS Certification Roadmap
                 Hands on:- Same as ALB but select NLB in load balancer type
 
             3. gateway load balancer ( GWLB ) - 
-                - Deploy, scale, and manage fleet of 3rd party network virtual appliances in AWS
+                - A Gateway Load Balancer (GWLB) is used when you want to inspect, filter, or secure network traffic before it reaches your application
+                - GWLB is designed for one specific job: deploying, scaling, and managing third-party virtual appliances like firewalls, intrusion detection/prevention systems (IDS/IPS), and deep packet inspection (DPI) tools
                 - Combines 
                     1.Transparent network gateway - single entry and exit point for all traffic ( uses GENEVE protocol )
                     2.Load balancer - distributes traffic across virtual appliances 
 
+                Think like - Security checkpoint where every visitor's bags are scanned before entering.
+
+
+                
                 Real example: A financial services company requires that all communication between production, development, and payment VPCs be inspected by a Palo Alto firewall. 
                 GWLB routes inter-VPC traffic through the firewall without modifying application
 
