@@ -170,7 +170,7 @@ Hands on Rolling Updates
 ### Login Command
 
 - AWS CLI v2: 
-  aws ecr get-login-password --region <_region_> | docker login --username AWS--password-stdin <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com
+  `aws ecr get-login-password --region <_region_> | docker login --username AWS --password-stdin <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com`
 
 ### Docker Commands
 
