@@ -174,8 +174,8 @@ Hands on Rolling Updates
 
 ### Docker Commands
 
-- Push: docker push <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest
-- Pull: docker pull <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest
+- Push: `docker push <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest`
+- Pull: `docker pull <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest`
 - In case an EC2 instance (or you) can’t pull a Docker image, check IAM permissions
 
 # AWS Copilot CLI (https://aws.github.io/copilot-cli/)
