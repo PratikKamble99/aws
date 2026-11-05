@@ -169,13 +169,13 @@ Hands on Rolling Updates
 
 ### Login Command
 
-- AWS CLI v2
-  aws ecr get-login-password --region <_region_> | docker login --username AWS--password-stdin <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com
+- AWS CLI v2: 
+  `aws ecr get-login-password --region <_region_> | docker login --username AWS --password-stdin <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com`
 
 ### Docker Commands
 
-- Push: docker push <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest
-- Pull: docker pull <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest
+- Push: `docker push <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest`
+- Pull: `docker pull <_aws_account_id_>.dkr.ecr.<_region_>.amazonaws.com/demo:latest`
 - In case an EC2 instance (or you) can’t pull a Docker image, check IAM permissions
 
 # AWS Copilot CLI (https://aws.github.io/copilot-cli/)
